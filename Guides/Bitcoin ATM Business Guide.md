@@ -29,10 +29,10 @@ Guide Overview:
 #### Banking & Financial Partners
 * Understanding Out-of-state and LLC Foreign Entity Banking
 * Finding a MSB & Bitcoin Friendly Banking Partner
-* Traditional Bank / Credit Union
-   * Third Party / Middleman Services
-   * Umbrella ATM Company
-   * Cash Vault and Armor Truck Services
+  * Traditional Bank / Credit Union
+  * Third Party / Middleman Services
+  * Umbrella ATM Company
+  * Cash Vault and Armor Truck Services
 * Purchase and Setup of ATM
   * General Bytes ATM
     * Research and Purchase
@@ -221,3 +221,18 @@ A good approach to make a bank feel comfortable with banking you is to minimize 
 Be able to demonstrate your mechanisms for complying with FinCEN BSA/AML/KYC regulations. Demonstrate you have a working knowledge of how to prevent money laundering on your ATM and restrictions you put in place. Explain how your machine collects and stores identifiable information on your customers.
 
 If you have found a bank that accepts regular ATM operators, they may allow you to open account categorized as one since you were able to reduce your risk. In the end, some banks may just not open account for bitcoin related accounts.
+
+#### Traditional Bank / Credit Union
+
+#### Third Party / Middleman services
+
+#### Umbrella ATM Company
+
+#### Cash Vault and Armored Truck services
+(Incomplete)
+
+### Purchase and Setup of ATM
+
+#### GeneralBytes ATM
+
+### ATM Placement and Servicing
