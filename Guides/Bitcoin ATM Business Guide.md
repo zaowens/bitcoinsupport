@@ -1,5 +1,5 @@
 # THIS ARTICLE IS A ROUGH DRAFT
-This guide is written by Zachary Owens. Twitter: @zaowens for questions, comments, and contributions.
+This guide is written by Zachary Owens. Twitter: @zaowens for questions, comments. Contribute at https://github.com/zaowens/bitcoinsupport/blob/master/Guides/Bitcoin%20ATM%20Business%20Guide.md
 
 This guide was created to educate potential entrepreneurs how to properly setup and manage a legally operating bitcoin ATM business in the United States. By providing this information, the goal is to spread bitcoin ATMs out of major cities and into small rural areas and local communities to allow easier access acquiring bitcoin. ATMs are one of many critical “on-ramps” transforming traditional US dollars to into bitcoin. In addition to expanding ATMs to smaller cities and towns, this guide is also intended to create more competition which may eventually result in lower fees charged by operators.
 
