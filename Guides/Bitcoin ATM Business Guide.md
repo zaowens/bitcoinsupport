@@ -7,32 +7,30 @@ Its very important to understand the regulations regarding this industry before 
 
 Guide Overview:
 
-#### Understanding Legalities & Research
-- Prior Reading and Important Links (Index)
-- Business Laws & Licenses
-- Regulations
-- BSA / AML / KYC
-- Money Service Business (MSB) & Money Transmitter
-- Understanding Fiat/BTC Liquidity Flow (Money Cycle)
-- Banking Partners & Restrictions
-- Research ATM Manufacturers & Armored Truck Services
-
-#### Business Setup
-- Forming an LLC
-- Setup LLC TIN
-- Opt-in to FINcen Regulations
-- Bitcoin Exchange Institutional Account Setup
-- Research Exchanges that Integrate with ATM Software
-- Register for Institutional Account (Gemini | Coinbase | itBit)
-  * Gemini
-
-#### Banking & Financial Partners
-* Understanding Out-of-state and LLC Foreign Entity Banking
-* Finding a MSB & Bitcoin Friendly Banking Partner
-  * Traditional Bank / Credit Union
-  * Third Party / Middleman Services
-  * Umbrella ATM Company
-  * Cash Vault and Armor Truck Services
+* Understanding Legalities & Research
+  * Prior Reading and Important Links (Index)
+  * Business Laws & Licenses
+  * Regulations
+  * BSA / AML / KYC
+  * Money Service Business (MSB) & Money Transmitter
+  * Understanding Fiat/BTC Liquidity Flow (Money Cycle)
+  * Banking Partners & Restrictions
+  * Research ATM Manufacturers & Armored Truck Services
+* Business Setup
+  * Forming an LLC
+  * Setup LLC TIN
+  * Opt-in to FINcen Regulations
+  * Bitcoin Exchange Institutional Account Setup
+  * Research Exchanges that Integrate with ATM Software
+  * Register for Institutional Account (Gemini | Coinbase | itBit)
+    * Gemini
+* Banking & Financial Partners
+ * Understanding Out-of-state and LLC Foreign Entity Banking
+  * Finding a MSB & Bitcoin Friendly Banking Partner
+    * Traditional Bank / Credit Union
+    * Third Party / Middleman Services
+    * Umbrella ATM Company
+    * Cash Vault and Armor Truck Services
 * Purchase and Setup of ATM
   * General Bytes ATM
     * Research and Purchase
@@ -43,7 +41,7 @@ Guide Overview:
     * BSA/AML/KYC Settings
     * Exchange Settings
     * Testing
-  * ATM Placement & Servicing
+* ATM Placement & Servicing
     * Branding, Support, and Notices
     * Ideal Locations
     * Security
