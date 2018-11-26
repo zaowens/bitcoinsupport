@@ -25,12 +25,12 @@ Guide Overview:
   * Register for Institutional Account (Gemini | Coinbase | itBit)
    * Gemini
 * Banking & Financial Partners
- * Understanding Out-of-state and LLC Foreign Entity Banking
-  * Finding a MSB & Bitcoin Friendly Banking Partner
-   * Traditional Bank / Credit Union
-   * Third Party / Middleman Services
-   * Umbrella ATM Company
-   * Cash Vault and Armor Truck Services
+  * Understanding Out-of-state and LLC Foreign Entity Banking
+    * Finding a MSB & Bitcoin Friendly Banking Partner
+    * Traditional Bank / Credit Union
+    * Third Party / Middleman Services
+    * Umbrella ATM Company
+    * Cash Vault and Armor Truck Services
 * Purchase and Setup of ATM
   * General Bytes ATM
     * Research and Purchase
