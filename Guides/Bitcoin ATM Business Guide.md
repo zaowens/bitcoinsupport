@@ -23,7 +23,7 @@ Guide Overview:
   * Bitcoin Exchange Institutional Account Setup
   * Research Exchanges that Integrate with ATM Software
   * Register for Institutional Account (Gemini | Coinbase | itBit)
-   * Gemini
+    * Gemini
 * Banking & Financial Partners
   * Understanding Out-of-state and LLC Foreign Entity Banking
     * Finding a MSB & Bitcoin Friendly Banking Partner
@@ -42,10 +42,10 @@ Guide Overview:
     * Exchange Settings
     * Testing
 * ATM Placement & Servicing
-    * Branding, Support, and Notices
-    * Ideal Locations
-    * Security
-    * Internet Availability and Hotspots
+  * Branding, Support, and Notices
+  * Ideal Locations
+  * Security
+  * Internet Availability and Hotspots
 
 ### Understanding Legalities & Research
 Starting up a bitcoin ATM business is not as simple as you might think. Researching topics related to money service businesses and FinCEN regulations are a must. Your research should not stop there. Research every topic listed in this guide. If you are confused at any point then you are going to be in trouble and it will cost you money in one way or another.
