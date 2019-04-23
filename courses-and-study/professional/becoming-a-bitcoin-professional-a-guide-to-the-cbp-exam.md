@@ -1,20 +1,20 @@
 # Becoming a Certified Bitcoin Professional – A Guide to the CBP Exam
-----
+
 ## Study Overview
 
 The main topics of this course will consist of the following topics:
 
 * History of Money and Ledger-based Economics
- * Centralized Ledgers
- * Functions of Currency
- * Distributed Consensus
- * History of Bitcoin
- * Price Derivation
+  * Centralized Ledgers
+  * Functions of Currency
+  * Distributed Consensus
+  * History of Bitcoin
+  * Price Derivation
 * Basic Cryptography
- * Terms and Definitions
- * Hash Functions
- * Symmetric and Asymmetric Encryption
- * Digital Signatures
+  * Terms and Definitions
+  * Hash Functions
+  * Symmetric and Asymmetric Encryption
+  * Digital Signatures
 * Bitcoin Basics
   * Bitcoin Community
   * Bitcoin Addresses and Keys
@@ -22,10 +22,10 @@ The main topics of this course will consist of the following topics:
   * Bitcoin Blockchain Ledger
   * bitcoin the unit
   * Bitcoin the Network
-  * Bitcoin Improvement Proposals (BIP)
+  * Bitcoin Improvement Proposals \(BIP\)
   * Buying and Selling bitcoin
   * Blockchain Explorers
-  * UTXOs (Unspent Transactions Output)
+  * UTXOs \(Unspent Transactions Output\)
 * Mining
   * Purpose and Functions
   * Algorithm
@@ -35,17 +35,16 @@ The main topics of this course will consist of the following topics:
 * Wallets, Clients and Key Management
   * Wallet Types
   * Bitcoin Clients
-  * Deterministic Wallets (BIP 32)
-  * Passphrase-Encrypted Wallets (BIP 38)
+  * Deterministic Wallets \(BIP 32\)
+  * Passphrase-Encrypted Wallets \(BIP 38\)
   * Backups, Importing, and Exporting
 * Bitcoin Commerce
   * Bitcoin Merchants
   * Bitcoin Payment Processors
-  * Secure Payment Protocol (BIP 70)
-
-----
+  * Secure Payment Protocol \(BIP 70\)
 
 ## History of Money and Ledger-based Economics
+
 This section will cover the following:
 
 * Centralized Ledgers
@@ -55,8 +54,8 @@ This section will cover the following:
 * Price Derivation
 
 ### Centralized Ledgers
-Ledg·er – noun
-– a book or other collection of financial accounts of a particular type.
+
+Ledg·er – noun – a book or other collection of financial accounts of a particular type.
 
 A ledger is a system by which you are able to record and total monetary transactions by accounts with debits and credits, including a beginning monetary balance and ending monetary balance for each account.
 
@@ -70,7 +69,7 @@ There are three well known functions of currency:
 
 Measure of value / Unit of account
 
-A unit of account (in economics) is a standard measurement of the market value of goods, services, and other transactions. It’s a measure of relative worth. Money acts as a standard measure and common denomination of trade. It is necessary for efficient accounting systems.
+A unit of account \(in economics\) is a standard measurement of the market value of goods, services, and other transactions. It’s a measure of relative worth. Money acts as a standard measure and common denomination of trade. It is necessary for efficient accounting systems.
 
 Store of value
 
@@ -80,13 +79,12 @@ Medium of exchange
 
 When money is used to intermediate the exchange of goods and services, it is performing a function as a medium of exchange. It thereby avoids the inefficiencies of a barter system, such as the “coincidence of wants” problem. Money’s most important usage is as a method for comparing the values of dissimilar objects.
 
-
 ### History of Bitcoin
 
 * Bitcoin was created by an unknown person that goes by the alias Satoshi Nakamoto.
 * On August 18th 2008, the domain name bitcoin.org was registered.
 * On October 31st 2008 a link to a paper authored by Satoshi Nakamoto titled Bitcoin: A Peer-to-Peer Electronic Cash System was posted to a cryptography mailing list. This paper is also known as the bitcoin whitepaper.
-* On January, 3rd, 2009, the bitcoin network came into existence with the release of the first open source bitcoin client and the issuance of the first bitcoins, with Satoshi Nakamoto mining the first block of bitcoins ever (known as the genesis block), which had a reward of 50 bitcoins. Embedded in the coinbase of this block was the text: The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.
+* On January, 3rd, 2009, the bitcoin network came into existence with the release of the first open source bitcoin client and the issuance of the first bitcoins, with Satoshi Nakamoto mining the first block of bitcoins ever \(known as the genesis block\), which had a reward of 50 bitcoins. Embedded in the coinbase of this block was the text: The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.
 * Programer Hal Finney downloaded the software the first day of release. On January 12th 2009 Finney received 10 bitcoins from Satoshi in the world’s first bitcoin transaction.
 * July 2010 MtGox bitcoin exchange is launched.
 * August 6th 2010 a major vulnerability in the bitcoin protocol was discovered.
@@ -97,7 +95,7 @@ When money is used to intermediate the exchange of goods and services, it is per
 * June 2011 Wikileaks starts accepting bitcoin donations.
 * September 2012 the Bitcoin Foundation is launched with the goal to “accelerate the global growth of bitcoin through standardization, protection, and promotion of the open source protocol”.
 * October 2012 Coinbase.com launches services to buy and sell bitcoin using bank transfers.
-* March 2013 The Financial Crimes Enforcement Network (FinCEN) establishes regulatory guidelines for “decentralized virtual currencies” classifying certain activities involving selling bitcoin as a Money Service Business (or MSBs), that subject individuals and businesses to legal reporting obligations and registration with the department.
+* March 2013 The Financial Crimes Enforcement Network \(FinCEN\) establishes regulatory guidelines for “decentralized virtual currencies” classifying certain activities involving selling bitcoin as a Money Service Business \(or MSBs\), that subject individuals and businesses to legal reporting obligations and registration with the department.
 * May 15th 2013 US authorities seize accounts associated with MtGox. The company did not register as a money transmitter with FinCEN.
 * October 2013 Robocoin and Bitcoiniacs launch the world’s first bitcoin ATM in Vancouver BC.
 * February 2014 MtGox suspends trading and withdrawals. Later that month MtGox files for bankruptcy protection claiming 744,000 bitcoins had been stolen.
@@ -107,13 +105,11 @@ When money is used to intermediate the exchange of goods and services, it is per
 * March 2016, the Cabinet of Japan recognized virtual currencies like bitcoin as having a function similar to real money.
 
 ### Price Derivation
+
 The bitcoin price can fluctuate like any other currency value. There is no centralized exchange, just exchanges run by businesses. Each time bitcoin changes ownership during a transaction between two parties, both must come to an agreement on its price. Since there is no centralized exchange, the price may vary based on supply and demand, as well as many other factors in the bitcoin ecosystem.
 
-----
-
-
-
 ## Basic Cryptography
+
 This section will cover the following:
 
 * Terms and Definitions
@@ -121,11 +117,9 @@ This section will cover the following:
 * Symmetric and Asymmetric Encryption
 * Digital Signatures
 
-
-
 ### Terminology
 
-Encryption is the process of turning a clear-text message (Plaintext) into a data stream which looks like a meaningless and random sequence of bits (ciphertext).
+Encryption is the process of turning a clear-text message \(Plaintext\) into a data stream which looks like a meaningless and random sequence of bits \(ciphertext\).
 
 The process of turning ciphertext back into plaintext is called decryption.
 
@@ -146,18 +140,17 @@ Symmetric algorithms:
 * Uses the same key for encryption and decryption.
 * Both the sender and receiver agree on a key before they can exchange messages securely.
 
-Asymmetric Algorithms:     (Public-key algorithms)
+Asymmetric Algorithms: \(Public-key algorithms\)
 
-* Uses two different keys (a key pair) for encryption and decryption.
+* Uses two different keys \(a key pair\) for encryption and decryption.
 * The two keys are mathematically related, but is computationally infeasible to calculate one key from the other.
 * “Public-key” can be made public without risking encryption.
 * Anyone can use the public key to encrypt a message, but only the owner of the private key can decrypt it.
 
-Some public-key algorithms such as RSA allow the process to work in the opposite direction as well: a message can be encrypted with a private key and decrypted with the corresponding public key. If Alice (or anyone else) can decrypt a message with Bob’s public key she knows that the message must have come from Bob because no one else has Bob’s private key. Digital signatures work this way.
-
-
+Some public-key algorithms such as RSA allow the process to work in the opposite direction as well: a message can be encrypted with a private key and decrypted with the corresponding public key. If Alice \(or anyone else\) can decrypt a message with Bob’s public key she knows that the message must have come from Bob because no one else has Bob’s private key. Digital signatures work this way.
 
 ### Hash Functions
+
 Hash Algorithms: MD4, MD5, SHA, SHA256
 
 MD stands for Message Digest. MD5 is just an improved version of MD4.
@@ -174,20 +167,16 @@ A cryptographic hash function allows one to easily verify that some input data m
 
 Even a slight change to input data should cause the hash value to change drastically.
 
-Digital Signatures
-A digital signature is a mathematical scheme for demonstrating the authenticity of digital messages or documents. A valid digital signature gives a recipient reason to believe that the message was created by a known sender (authentication), that the sender cannot deny having sent the message (non-repudiation), and that the message was not altered in transit (integrity).
+Digital Signatures A digital signature is a mathematical scheme for demonstrating the authenticity of digital messages or documents. A valid digital signature gives a recipient reason to believe that the message was created by a known sender \(authentication\), that the sender cannot deny having sent the message \(non-repudiation\), and that the message was not altered in transit \(integrity\).
 
 Digital signatures employ asymmetric cryptography. In many instances they provide a layer of validation and security to messages sent through a non-secure channel: Properly implemented, a digital signature gives the receiver reason to believe the message was sent by the claimed sender.
 
 A digital signature scheme typically consists of 3 algorithms:
 
-A key generation algorithm that selects a private key at random from a set of possible private keys. The algorithm outputs the private key along with its corresponding public key.
-A signing algorithm that when used with your data + private key produces a signature.
-A signature verification algorithm that used with your data + the public key, either accepts or denies the signatures claim to authenticity.
-
----
+A key generation algorithm that selects a private key at random from a set of possible private keys. The algorithm outputs the private key along with its corresponding public key. A signing algorithm that when used with your data + private key produces a signature. A signature verification algorithm that used with your data + the public key, either accepts or denies the signatures claim to authenticity.
 
 ## Bitcoin Basics
+
 This section will cover the following:
 
 * Bitcoin Community
@@ -196,13 +185,13 @@ This section will cover the following:
 * Bitcoin Blockchain Ledger
 * bitcoin the unit
 * Bitcoin the Network
-* Bitcoin Improvement Proposals (BIP)
+* Bitcoin Improvement Proposals \(BIP\)
 * Buying and Selling bitcoin
 * Blockchain Explorers
-* UTXOs (Unspent Transactions Output)
-
+* UTXOs \(Unspent Transactions Output\)
 
 ### Bitcoin Community
+
 Many bitcoin users converse and research bitcoin topics in various ways both online and in person.
 
 Community discussion forums such as Bitcoin Reddit, Bitcoin Talk Forum, Bitcoin Core Slack channel, IRC channels.
@@ -219,23 +208,19 @@ Governments also can have effects on the bitcoin ecosystem. Adding and removing 
 
 Some countries have even banned the use of bitcoin, even though its extremely challenging to make sure citizens even comply with the law.
 
-In the United States, regulations tend to focus on the US Dollar in relation bitcoin value. Example: businesses selling bitcoin must register with the US Financial Crimes Network (FinCEN). Regulations such as the example above can cause a ‘raised bar of entry’ to startup a business. Such would increase costs and possibly affect the bitcoin ecosystem.
+In the United States, regulations tend to focus on the US Dollar in relation bitcoin value. Example: businesses selling bitcoin must register with the US Financial Crimes Network \(FinCEN\). Regulations such as the example above can cause a ‘raised bar of entry’ to startup a business. Such would increase costs and possibly affect the bitcoin ecosystem.
 
 Since bitcoin is a borderless protocol, governments treat it differently in each country, they each of course have their own laws.
 
-
-
 ### Bitcoin Addresses and Keys
+
 A Bitcoin address, or simply address, is an identifier of 26-35 alphanumeric characters, beginning with the number 1, 3, or bc1 that represents a possible destination for a bitcoin payment.
 
 There are currently three address formats in use:
 
-P2PKH which begin with the number 1, eg: 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2
-P2SH type starting with the number 3, eg: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
-Bech32 type starting with bc1, eg: bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq
-How do you generate a bitcoin address?
+P2PKH which begin with the number 1, eg: 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2 P2SH type starting with the number 3, eg: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy Bech32 type starting with bc1, eg: bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq How do you generate a bitcoin address?
 
-As we reviewed in the Basic Cryptography section, bitcoin addresses use asymmetric encryption based on a public and private key pair. Your bitcoin address is basically a public key. To generate your bitcoin public key (your bitcoin address) you need to start by generating a private key, which you can then use to derive your public key (address).
+As we reviewed in the Basic Cryptography section, bitcoin addresses use asymmetric encryption based on a public and private key pair. Your bitcoin address is basically a public key. To generate your bitcoin public key \(your bitcoin address\) you need to start by generating a private key, which you can then use to derive your public key \(address\).
 
 A private key can be converted into a public key, but a public key cannot be converted back into a private key because the math only works one way.
 
@@ -245,13 +230,14 @@ Base58Check encoding of the above Hex key would give us a WIF format starting wi
 
 WIF-compressed type private key encoding would start with a K or an L: KxFC1jmwwCoACiCAWZ3eXa96mBM6tb3TYzGmf6YwgdGWZgawvrtJ
 
-To calculate your public from your private key, we use a technique called Elliptic Curve Digital Signature Algorithm (ECDSA). The public key is calculated using the elliptic curve multiplication in which the math only works in one direction.
+To calculate your public from your private key, we use a technique called Elliptic Curve Digital Signature Algorithm \(ECDSA\). The public key is calculated using the elliptic curve multiplication in which the math only works in one direction.
 
-K = k * G, where k is the private key, G is a constant point called the generator point, and K is the public key. The generator point is a standard and is the same for all bitcoin keys.
+K = k \* G, where k is the private key, G is a constant point called the generator point, and K is the public key. The generator point is a standard and is the same for all bitcoin keys.
 
 To calculate our bitcoin address from the public key we will compute K with a SHA256 hash and then a RIPEMD160 hash. This results in a public key hash that we encode with a Base58Check. The end result is our finished bitcoin address.
 
 ### Bitcoin Transactions
+
 Transactions consist of inputs and outputs. Inputs are similar to making a debit from a ledger, and similarly a output is like making a credit to a ledger. The input and output don’t necessarily add up when reconciled, because a small amount missing implies a transaction fee was paid to the network for the transaction.
 
 “Spending” bitcoin involves signing the transaction with a digital signature made up of your public and private key. The digital signature provides proof of ownership of the bitcoin, and the entire network can verify your transaction is valid based on the digital signature.
@@ -259,13 +245,13 @@ Transactions consist of inputs and outputs. Inputs are similar to making a debit
 After a transaction is signed, its broadcast to other computers running the bitcoin software. Eventually, the transaction is organized into the blockchain inside a block. This means the network consensus agrees your inputs were valid and that your outputs destination is now in possession of the bitcoin you chose to send.
 
 ### Bitcoin Blockchain Ledger
-Bitcoin functions as a public ledger because all transactions are literally made public. Since transactions propagate throughout the network, each computer running the bitcoin software receives a copy of every transaction. This is the blockchain. A public record of every transaction that has taken place on the network.  
+
+Bitcoin functions as a public ledger because all transactions are literally made public. Since transactions propagate throughout the network, each computer running the bitcoin software receives a copy of every transaction. This is the blockchain. A public record of every transaction that has taken place on the network.
 
 Transactions are organized into blocks by miners, that validate all transactions and attach the new block to the blockchain. This process happens every 10 minutes on average. Blocks are then sent to every node on the network, and miners begin to work on the next block.
 
-
-
 ### bitcoin the unit
+
 Bitcoin the payment protocol is typically referred to with a capital ‘B’. This is also the correct way to reference the Bitcoin community as a whole or writing about Bitcoin in general terms.
 
 Example: “Today we will be learning about Bitcoin, a cryptocurrency”.
@@ -274,15 +260,14 @@ The currency bitcoin is referenced with a lowercase ‘b’ and is used typicall
 
 Example: “I just sent 1 bitcoin to my friend”.
 
-| Unit | Value in BTC	| Value in USD ($) |
-|------|--------------|------------------|
-| BTC  |     1        | 670.40           |
-| Cent-Bitcoin (cBTC or bitcent) |	0.01 |	6.70 |
-| Milli-Bitcoin (mBTC or millibit) |	0.001 |	0.67 |
-| Micro-Bitcoin (μBTC or bit(s) |	0.000001 |	0.00067 |
-| finney |	0.0000001 |	0.000067 |
-| satoshi |	0.00000001 |	0.0000067 |
-
+| Unit | Value in BTC | Value in USD \($\) |
+| :--- | :--- | :--- |
+| BTC | 1 | 670.40 |
+| Cent-Bitcoin \(cBTC or bitcent\) | 0.01 | 6.70 |
+| Milli-Bitcoin \(mBTC or millibit\) | 0.001 | 0.67 |
+| Micro-Bitcoin \(μBTC or bit\(s\) | 0.000001 | 0.00067 |
+| finney | 0.0000001 | 0.000067 |
+| satoshi | 0.00000001 | 0.0000067 |
 
 Bitcoin symbol:
 
@@ -291,34 +276,34 @@ The most commonly used symbol to represent bitcoin is a capital letter ‘B’ w
 This symbol was designed by Satoshi Nakamoto and was used in the original Bitcoin client software. The bitcoin currency unit is also commonly given the informal currency code BTC.
 
 ### Bitcoin the Network
-The Bitcoin network is a peer-to-peer based setup in which nodes (peers) connect to each other instead of relying on a central server.
 
+The Bitcoin network is a peer-to-peer based setup in which nodes \(peers\) connect to each other instead of relying on a central server.
 
+### Bitcoin Improvement Proposals \(BIPs\)
 
-### Bitcoin Improvement Proposals (BIPs)
 A BIP is a well structured document that proposes changes to the bitcoin software. These proposals are submitted on the Bitcoin Github at github.com/bitcoin/bips. The proposal must first be sent to the bitcoin-dev mailing list, which it will be discussed by top developers, and then listed on Github.
 
 Once listed on Github it can be reviewed, modified, and tested via the entire bitcoin development community, as well as publicly discussed.
 
-
-
 ### Buying and Selling bitcoin
+
 There are many different ways to purchase bitcoin, the most typical are:
 
 * Bitcoin exchange
 * ATMs
 * Private seller
-* Trade for goods or service (ex: paid for work in bitcoin)
+* Trade for goods or service \(ex: paid for work in bitcoin\)
 
 Bitcoin Exchanges work like a money or stock market. Other users like yourself on the exchange offer to sell bitcoin at a price of their choosing, other users offer to buy bitcoin at a price of their choosing. When these orders overlap, a sale is made. Thus the supply and demand of bitcoin on an exchange creates a price value per coin.
 
 Typical users when purchasing bitcoin from an exchange purchase bitcoin from the seller offering it for the least amount. This is called a market order. Most users may not even be aware that these market orders are even placed on the exchange when they buy/sell bitcoin. Most services, such as coinbase.com for example, make the process very user friendly. All the complicated exchange features happen in the background.
 
-Continuing to use Coinbase.com as our exchange example, visitors to the site simply sign up to become a user, and after verification, can connect their bank account or credit card to the website and start purchasing or selling bitcoin. After purchasing the bitcoin, it’s typically added to a wallet hosted by the exchange on their website. Since the wallet that the user’s bitcoin is stored on belongs to the exchange, the user has no access to the private keys associated with that bitcoin address. This means that should anything happen to the exchange’s wallet (ex: the exchange is hacked), the user might have no access to, or suffer from loss of funds completely. Its highly recommended that users transfer their bitcoin from the exchange to a bitcoin wallet that they themselves hold the keys to.
+Continuing to use Coinbase.com as our exchange example, visitors to the site simply sign up to become a user, and after verification, can connect their bank account or credit card to the website and start purchasing or selling bitcoin. After purchasing the bitcoin, it’s typically added to a wallet hosted by the exchange on their website. Since the wallet that the user’s bitcoin is stored on belongs to the exchange, the user has no access to the private keys associated with that bitcoin address. This means that should anything happen to the exchange’s wallet \(ex: the exchange is hacked\), the user might have no access to, or suffer from loss of funds completely. Its highly recommended that users transfer their bitcoin from the exchange to a bitcoin wallet that they themselves hold the keys to.
 
 Mt.Gox is a famous bitcoin exchange that suffered a hack, forcing the exchange to close. Most users lost all of their bitcoin and dollars that the exchange was in possession of.
 
 ### Blockchain Explorers
+
 A blockchain explorer is a website that acts like a search engine for the blockchain. Visitors can search for transactions by ID, or even lookup by specific address.
 
 The website indexes the blockchain and makes it searchable.
@@ -327,12 +312,12 @@ Blockchain.info is an example of a popular blockchain explorer website.
 
 Since explorers are usually synced with the Bitcoin network in real time, you can see transactions instantly when searching. You could even use an explorer to confirm you received or sent a transaction, if you trust the explorer that is.
 
-### UTXO (Unspent Transaction Output)
-Only unspent transactions can be used as inputs for a transaction. Unspent transactions are databases and indexed in the bitcoin software. When a UTXO is used as an input, it is deleted from the database once spent. The destination address is then added as a UTXO.  
+### UTXO \(Unspent Transaction Output\)
 
----
+Only unspent transactions can be used as inputs for a transaction. Unspent transactions are databases and indexed in the bitcoin software. When a UTXO is used as an input, it is deleted from the database once spent. The destination address is then added as a UTXO.
 
 ## Mining
+
 This section will cover the following:
 
 * Purpose and Functions
@@ -342,16 +327,18 @@ This section will cover the following:
 * Security and Centralization
 
 ### Purpose and Functions
-Mining adds transactions to Bitcoin’s public ledger (the blockchain). Thus confirming to the rest of the network that the transactions have taken place. This prevents users from ‘double spending’ bitcoin, and creates distributed consensus.
 
-New blocks are created by a miner finding a hash lower than or equal to the current network difficulty target.  
+Mining adds transactions to Bitcoin’s public ledger \(the blockchain\). Thus confirming to the rest of the network that the transactions have taken place. This prevents users from ‘double spending’ bitcoin, and creates distributed consensus.
+
+New blocks are created by a miner finding a hash lower than or equal to the current network difficulty target.
 
 If the miner hits the target, a new block is created. The miner is rewarded with a block reward plus transaction fees from transactions they included in their block.
 
 ### Algorithm
+
 Difficulty adjustment: a change made to the difficulty target for the Bitcoin network every 2016 blocks. Difficulty will go up or down to keep blocks an average of 10 minutes apart from each other.
 
-Hashing algorithm: Block transactions hashed together into Merkle tree root hash. Combined with previous block hash and nonce, then hashed.  (New Block Merkle Root + Previous Block Hash + Nonce)
+Hashing algorithm: Block transactions hashed together into Merkle tree root hash. Combined with previous block hash and nonce, then hashed. \(New Block Merkle Root + Previous Block Hash + Nonce\)
 
 Nonce: A random number added the to block header to give something to increment to attempt to produce a valid hash. Nonce will differ miner to miner because of coinbase.
 
@@ -360,22 +347,25 @@ Coinbase transaction: First transaction in block, miner sends itself block rewar
 Block reward: bitcoin rewarded for finding block. Block reward started originally at 50 bitcoin, but is halved every 210,000 blocks until the total bitcoin supply of 21,000,000 bitcoin is in circulation.
 
 ### Mining Pools
+
 A mining pool is a group of miners that combine hashing power in an attempt to create a block together. The rewards are then slip evenly among the pool based on the amount of power each individual contributed.
 
 Centralized mining pool is a group of miners connecting to one single server. In essence trusting the single centralized operator to validate and submit blocks.
 
 P2P pool operates in a fashion the requires each miner to run their own bitcoin node, and independently validate their own blocks. This helps curb the mining centralization to a certain extent.
 
-Single (solo) miners in contrast run their own nodes, validate their own blocks, and mine by themselves. They don’t share any of their rewards. This method was the original purpose of mining, however, blocks are typically generated much slower. For miners with very low hashing power, they might not ever generate a single block, which makes pooled mining more appealing.
+Single \(solo\) miners in contrast run their own nodes, validate their own blocks, and mine by themselves. They don’t share any of their rewards. This method was the original purpose of mining, however, blocks are typically generated much slower. For miners with very low hashing power, they might not ever generate a single block, which makes pooled mining more appealing.
 
 ### Mining Hardware
+
 The most popular mining hardware used in mining today are ASIC miners. ASIC stands for application-specific integrated circuit. ASIC miners are designed for the sole purpose of SHA-256 hashing. They are much faster and efficient compared to CPU and GPU mining.
 
-In comparison a GPU (graphics processing unit) is much slower than an ASIC miner. Compared to a typical CPU, a GPU will generally either be faster, or more affordable than a standard CPU.
+In comparison a GPU \(graphics processing unit\) is much slower than an ASIC miner. Compared to a typical CPU, a GPU will generally either be faster, or more affordable than a standard CPU.
 
 CPU mining was the original way to mine bitcoin.
 
 ### Security and Centralization
+
 A 51% attack if possible if a miner or mining pool controls more than 50% of the mining power on the network. The miner could be able to double spend / reverse transactions should the attack work successfully. Simple put, the miner would wait for a block with their transaction in it, then mine that same block again, and also the block after it, before the rest of the network has a chance to mine the aforementioned block itself.
 
 However, it’s typically more profitable just to use such large hashing power to mine regular blocks and be paid the block reward.
@@ -384,18 +374,18 @@ However, it’s typically more profitable just to use such large hashing power t
 
 Mining pools have a higher likelihood of achieving 51% of the network hashing power if enough companies or individual miners combine enough of their power together in the pool.
 
----
-
 ## Wallets, Clients, and Key Management
+
 This section will cover the following:
 
 * Wallet Types
 * Bitcoin Clients
-* Deterministic Wallets (BIP 32)
-* Passphrase-Encrypted Wallets (BIP 38)
+* Deterministic Wallets \(BIP 32\)
+* Passphrase-Encrypted Wallets \(BIP 38\)
 * Backups, Importing, and Exporting
 
 ### Wallet Types
+
 A wallet is collection of private keys used to authorize and sign transactions. There are a variety of wallets, and sometimes they function and manage private keys in different ways.
 
 Software wallet: typically software hosted on a computer running an operating system such as Windows, iOS, or Linux.
@@ -406,29 +396,32 @@ Hot/cold wallet: A hot wallet is typically connected to the internet and ready t
 
 Paper Wallet: A form of cold storage where the private key is physically print out onto a paper, obviously not able to be connected to the internet. Funds sent to the bitcoin address associated with key are not spendable until the owner imports the private key to another wallet type, such as a software wallet.
 
-Brain Wallet (VERY Insecure): a private key generated by a simple passphrase. Anyone who uses that same passphrase can recover the private key and spend funds. Example: using the passphrase “123” generates the same private key. This type of wallet is very dangerous and very insecure. It should not be used.
+Brain Wallet \(VERY Insecure\): a private key generated by a simple passphrase. Anyone who uses that same passphrase can recover the private key and spend funds. Example: using the passphrase “123” generates the same private key. This type of wallet is very dangerous and very insecure. It should not be used.
 
 Hardware wallet: likely the most secure way to store bitcoin. Acts as cold storage for keys, usually never exposed to the internet. Signatures required for transactions typically happen on the device, then the digital signature is sent to a software wallet to broadcast the transaction.
 
 Multi-sig wallet: a wallet type that can be supported by other wallets such as software, web, and hardware. Requires multiple keys to sign a transaction.
 
-HD wallet: a hierarchical deterministic wallet that creates all its private keys from a single seed. This allows users to import and export (backup and restore) wallets without needing to store a file, or create multiple paper wallets. Most wallets are HD since reusing single bitcoin addresses is not typically recommended for privacy reasons. Seeds are usually serialized into human-readable words in a Mnemonic phrase.
+HD wallet: a hierarchical deterministic wallet that creates all its private keys from a single seed. This allows users to import and export \(backup and restore\) wallets without needing to store a file, or create multiple paper wallets. Most wallets are HD since reusing single bitcoin addresses is not typically recommended for privacy reasons. Seeds are usually serialized into human-readable words in a Mnemonic phrase.
 
 HDM wallet: is a combination of an HD wallet and a multi-sig wallet.
 
 ### Bitcoin Clients
-Lightweight nodes are served by full nodes to connect to the Bitcoin network. They are effectively dependent on the full nodes to function. A lightweight node does not download the complete blockchain. Instead, it downloads the block headers only to validate the authenticity of the transactions. Because of this reason light nodes are easy to maintain and run. Lightweight nodes use a method called simplified рауmеnt verification (SPV) to verify transactions.
+
+Lightweight nodes are served by full nodes to connect to the Bitcoin network. They are effectively dependent on the full nodes to function. A lightweight node does not download the complete blockchain. Instead, it downloads the block headers only to validate the authenticity of the transactions. Because of this reason light nodes are easy to maintain and run. Lightweight nodes use a method called simplified рауmеnt verification \(SPV\) to verify transactions.
 
 Full nodes download and verify every transaction in the blockchain, which can be time consuming, but is more secure.
 
-### Deterministic Wallets (BIP 32)
-HD wallet: a hierarchical deterministic wallet that creates all its private keys from a single seed. This allows users to import and export (backup and restore) wallets without needing to store a file, or create multiple paper wallets. Most wallets are HD since reusing single bitcoin addresses is not typically recommended for privacy reasons. Seeds are usually serialized into human-readable words in a Mnemonic phrase.
+### Deterministic Wallets \(BIP 32\)
+
+HD wallet: a hierarchical deterministic wallet that creates all its private keys from a single seed. This allows users to import and export \(backup and restore\) wallets without needing to store a file, or create multiple paper wallets. Most wallets are HD since reusing single bitcoin addresses is not typically recommended for privacy reasons. Seeds are usually serialized into human-readable words in a Mnemonic phrase.
 
 Wallets can be shared partially or entirely with different systems, each with or without the ability to spend coins.
 
 Since the public addresses can be generated from a seed without revealing the private keys, you could store the bitcoin addresses on a server, receive payments to the addresses, without revealing the private keys or seed to your server.
 
-### Passphrase-Encrypted Wallets (BIP 38)
+### Passphrase-Encrypted Wallets \(BIP 38\)
+
 A uniform way of encrypting a private key with a password.
 
 One way to use BIP 38 is to simply encrypt your own private key with a password.
@@ -436,34 +429,35 @@ One way to use BIP 38 is to simply encrypt your own private key with a password.
 Another use would be to encrypt with a password, then give the private key to another individual. A popular example is having something print or create a physical bitcoin on paper or actual coin, with your private key attached. This allows you to openly share your private key with someone, but no allow them to spend your bitcoin.
 
 ### Backups, Importing and Exporting
-Wallet Import Format (WIF) is a way of encoding a private ECDSA key so as to make it easier to copy.
 
-Software wallets allow you to save a wallet file containing your keys. You can store this file on another media source such as a flash drive or a disk. This will allow you to recover your bitcoin wallet in case of a system failure on your computer. Software wallets usually have an import or recovery feature to allow you to upload your file. Most wallets encrypt the keys using a password (BIP 38).
+Wallet Import Format \(WIF\) is a way of encoding a private ECDSA key so as to make it easier to copy.
 
-Hierarchical deterministic wallets (HD wallets) (BIP 32) use seed words as a backup and recovery option. To recover your HD wallet, you would open your wallet software, and enter your seed words in the order you wrote them down.
+Software wallets allow you to save a wallet file containing your keys. You can store this file on another media source such as a flash drive or a disk. This will allow you to recover your bitcoin wallet in case of a system failure on your computer. Software wallets usually have an import or recovery feature to allow you to upload your file. Most wallets encrypt the keys using a password \(BIP 38\).
 
----
+Hierarchical deterministic wallets \(HD wallets\) \(BIP 32\) use seed words as a backup and recovery option. To recover your HD wallet, you would open your wallet software, and enter your seed words in the order you wrote them down.
 
 ## Bitcoin Commerce
+
 This section will cover the following:
 
 * Bitcoin Merchants
 * Bitcoin Payment Processors
-* Secure Payment Protocol (BIP 70)
+* Secure Payment Protocol \(BIP 70\)
 
 ### Bitcoin Merchants
+
 Merchants can start accepting bitcoin immediately by downloading bitcoin wallet software on a computer, cell phone, or tablet. It’s as easy as accepting regular cash dollars.
 
 Some merchants may wish to use a 3rd party to help invoice and manage payment received. Companies like Bitpay and Coinbase.com Commerce offer tools for merchants to accept bitcoin easier. Some companies charge fees for this service.
 
-
-
 ### Bitcoin Payment Processors
+
 An advantage some 3rd party companies offer a service that will automatically exchange the bitcoin for US dollar when the transaction is conducted. The 3rd party then automatically transfers the dollar funds to the merchants bank account. Just like how a standard credit card processing companies work.
 
 Some 3rd parties include options to keep a chosen % of the total sale in bitcoin, exchanging the rest for dollars.
 
-### Secure Payment Protocol (BIP 70)
+### Secure Payment Protocol \(BIP 70\)
+
 Secure Payment Protocol describes a protocol for communication between a merchant and their customer, enabling both a better customer experience and better security against man-in-the-middle attacks on the payment process.
 
 Using this protocol adds more information to a transaction other than just a bitcoin address to send payment to. This includes a human-readable authorization of payment with the actual name of the requesting business visible.
@@ -472,29 +466,27 @@ It also provides a secure proof of payment, which can act as a receipt for the c
 
 In addition, a refund address is automatically provided, so the merchant can issue a refund without having to contact the customer for an address.
 
----
+#### Further reading on topics covered & sources
 
-
-
-##### Further reading on topics covered & sources
 Functions of currency:
 
-https://en.wikipedia.org/wiki/Money#Functions
+[https://en.wikipedia.org/wiki/Money\#Functions](https://en.wikipedia.org/wiki/Money#Functions)
 
 Cryptography:
 
-http://www.aspencrypt.com/crypto101_terminology.html
+[http://www.aspencrypt.com/crypto101\_terminology.html](http://www.aspencrypt.com/crypto101_terminology.html)
 
-https://en.wikipedia.org/wiki/Cryptography#Terminology
+[https://en.wikipedia.org/wiki/Cryptography\#Terminology](https://en.wikipedia.org/wiki/Cryptography#Terminology)
 
-https://en.wikipedia.org/wiki/Hash_function
+[https://en.wikipedia.org/wiki/Hash\_function](https://en.wikipedia.org/wiki/Hash_function)
 
 Bitcoin Addresses and Keys:
 
-https://en.bitcoin.it/wiki/Address
+[https://en.bitcoin.it/wiki/Address](https://en.bitcoin.it/wiki/Address)
 
-https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc
+[https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc)
 
 BIP Information:
 
-https://github.com/bitcoin/bips
+[https://github.com/bitcoin/bips](https://github.com/bitcoin/bips)
+
